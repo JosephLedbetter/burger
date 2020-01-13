@@ -1,0 +1,28 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "simple burger application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephLedbetter/burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "joseph ledbetter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephLedbetter/burger/issues"
+  },
+  "homepage": "https://github.com/JosephLedbetter/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7"
+  }
+}
