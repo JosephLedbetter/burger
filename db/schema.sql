@@ -1,5 +1,5 @@
 -- creating the burgers_db to hold the burgers table
-DROP DATABASE IF EXISTS burger_db;
+DROP DATABASE IF EXISTS burgers_db;
 
 CREATE DATABASE burgers_db;
 
