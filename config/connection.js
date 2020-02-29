@@ -12,6 +12,8 @@ const connect= {
 };
 
 // creating connection to the database and 
-const pool = mysql.createPool(process.env.JAWSDB_URL || connect);
+const pool = mysql.createConnection(process.env.JAWSDB_URL || connect);
+
+
 
 module.exports = pool;

@@ -3,6 +3,8 @@ const path  = require("path");
 
 const pool = require(path.join(__dirname, "connection.js"));
 
+pool.connect();
+
 // Add double quotation marks around strings for SQL queries
 function addQuotes(x) {
     return (typeof x === "string") ? `"${x}"` : `${x}`;
